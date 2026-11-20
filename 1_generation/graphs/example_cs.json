@@ -1,0 +1,39 @@
+{
+  "meta": {"name":"example_cs","note":"Hand-made example with 12 real topics. Edge [X, Y] = X requires Y."},
+  "nodes": [
+    {"id":0,"label":"Variables","level":0},
+    {"id":1,"label":"Control Flow","level":1},
+    {"id":2,"label":"Functions","level":1},
+    {"id":3,"label":"Arrays","level":1},
+    {"id":4,"label":"Loops","level":2},
+    {"id":5,"label":"Recursion","level":2},
+    {"id":6,"label":"Big O","level":3},
+    {"id":7,"label":"Linear Search","level":3},
+    {"id":8,"label":"Binary Search","level":4},
+    {"id":9,"label":"Merge Sort","level":4},
+    {"id":10,"label":"Quick Sort","level":4},
+    {"id":11,"label":"Sorting Overview","level":5}
+  ],
+  "edges": [
+    [1,0],
+    [2,0],
+    [3,0],
+    [4,1],
+    [4,3],
+    [5,1],
+    [5,2],
+    [6,4],
+    [7,3],
+    [7,4],
+    [8,3],
+    [8,6],
+    [9,3],
+    [9,5],
+    [9,6],
+    [10,3],
+    [10,5],
+    [10,6],
+    [11,9],
+    [11,10]
+  ]
+}

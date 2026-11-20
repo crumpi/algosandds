@@ -1,0 +1,5 @@
+node_modules/
+# large generated graphs: recreate with `node 1_generation/run.ts` (seeded, identical output)
+1_generation/graphs/kg_n50000_*.json
+1_generation/graphs/kg_n100000_*.json
+*.svg
